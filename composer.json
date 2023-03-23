@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/" 
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "app/Helpers/Function.php",
+            "Config/Define.php"
+        ]
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "laravel/helpers": "^1.6"
+    }
+}
